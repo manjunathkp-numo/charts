@@ -40,7 +40,7 @@ podLabels: {}
 kic-crds:
   enabled: true
 
-# Install Kong's Kubernetes Configuration CRDs (https://github.com/Kong/kubernetes-configuration)
+# Install Kong's Kubernetes Configuration CRDs (https://github.com/manjunathkp-numokubernetes-configuration)
 kubernetes-configuration-crds:
   enabled: false
 

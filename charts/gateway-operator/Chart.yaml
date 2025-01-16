@@ -7,7 +7,7 @@ maintainers:
     email: team-k8s@konghq.com
 name: gateway-operator
 sources:
-  - https://github.com/Kong/charts/tree/main/charts/gateway-operator
+  - https://github.com/manjunathkp-numocharts/tree/main/charts/gateway-operator
 version: 0.4.2
 appVersion: "1.4"
 annotations:

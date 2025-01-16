@@ -7,7 +7,7 @@ maintainers:
     email: team-k8s@konghq.com
 name: ingress
 sources:
-  - https://github.com/Kong/charts/tree/main/charts/ingress
+  - https://github.com/manjunathkp-numocharts/tree/main/charts/ingress
 version: 0.17.0
 appVersion: "3.8"
 dependencies:

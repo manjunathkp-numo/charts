@@ -8079,7 +8079,7 @@ spec:
                       Replicas describes the number of desired pods.
                       This is a pointer to distinguish between explicit zero and not specified.
                       This only affects the DataPlane deployments for now, for more details on
-                      ControlPlane scaling please see https://github.com/Kong/gateway-operator/issues/736.
+                      ControlPlane scaling please see https://github.com/manjunathkp-numogateway-operator/issues/736.
                     format: int32
                     type: integer
                 type: object
@@ -25893,7 +25893,7 @@ spec:
                           Replicas describes the number of desired pods.
                           This is a pointer to distinguish between explicit zero and not specified.
                           This only affects the DataPlane deployments for now, for more details on
-                          ControlPlane scaling please see https://github.com/Kong/gateway-operator/issues/736.
+                          ControlPlane scaling please see https://github.com/manjunathkp-numogateway-operator/issues/736.
                         format: int32
                         type: integer
                     type: object
