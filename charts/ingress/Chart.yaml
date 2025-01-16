@@ -7,17 +7,17 @@ maintainers:
     email: team-k8s@konghq.com
 name: ingress
 sources:
-  - https://github.com/manjunathkp-numo/charts/tree/main/charts/ingress   
+  - https://github.com/manjunathkp-numo/charts/tree/main/charts/ingress
 version: 0.17.0
 appVersion: "3.8"
 dependencies:
   - name: kong
-    version: "=2.46.1"
-    repository: https://github.com/manjunathkp-numo/charts/tree/main/charts/ingress  
+    version: "=2.46.0"
+    repository: https://charts.konghq.com
     alias: controller
     condition: controller.enabled
   - name: kong
-    version: "=2.46.1"
-    repository: https://github.com/manjunathkp-numo/charts/tree/main/charts/gateway-operator  
+    version: "=2.46.0"
+    repository: https://charts.konghq.com
     alias: gateway
     condition: gateway.enabled
