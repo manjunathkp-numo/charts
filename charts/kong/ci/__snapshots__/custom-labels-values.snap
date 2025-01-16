@@ -754,7 +754,7 @@ spec:
               value: "off"
             - name: KONG_NGINX_DAEMON
               value: "off"
-          image: kong:3.8
+          image: kongk8s:3.4.0
           imagePullPolicy: IfNotPresent
           lifecycle:
             preStop:
@@ -866,7 +866,7 @@ spec:
               value: 0.0.0.0:8100, [::]:8100
             - name: KONG_STREAM_LISTEN
               value: "off"
-          image: kong:3.8
+          image: kongk8s:3.4.0
           imagePullPolicy: IfNotPresent
           name: clear-stale-pid
           resources: {}

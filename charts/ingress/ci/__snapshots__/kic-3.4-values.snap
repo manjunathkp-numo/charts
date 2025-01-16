@@ -863,7 +863,7 @@ spec:
       automountServiceAccountToken: false
       initContainers:
       - name: clear-stale-pid
-        image: kong:3.8
+        image: kongk8s:3.4.0
         imagePullPolicy: IfNotPresent
         securityContext:
           allowPrivilegeEscalation: false
@@ -938,7 +938,7 @@ spec:
           mountPath: /tmp
       containers:
       - name: "proxy"
-        image: kong:3.8
+        image: kongk8s:3.4.0
         imagePullPolicy: IfNotPresent
         securityContext:
           allowPrivilegeEscalation: false
