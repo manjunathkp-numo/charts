@@ -632,7 +632,7 @@ spec:
       automountServiceAccountToken: false
       initContainers:
       - name: clear-stale-pid
-        image: kongk8s:3.4.0
+        image: kong:3.8
         imagePullPolicy: IfNotPresent
         securityContext:
           allowPrivilegeEscalation: false
@@ -784,7 +784,7 @@ spec:
           mountPath: /var/run/secrets/kubernetes.io/serviceaccount
           readOnly: true
       - name: "proxy"
-        image: kongk8s:3.4.0
+        image: kong:3.8
         imagePullPolicy: IfNotPresent
         securityContext:
           allowPrivilegeEscalation: false

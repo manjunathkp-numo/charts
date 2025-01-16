@@ -844,7 +844,7 @@ spec:
               value: "off"
             - name: KONG_NGINX_DAEMON
               value: "off"
-          image: kongk8s:3.4.0
+          image: kong:3.8
           imagePullPolicy: IfNotPresent
           lifecycle:
             preStop:
@@ -971,7 +971,7 @@ spec:
               value: 0.0.0.0:8100, [::]:8100
             - name: KONG_STREAM_LISTEN
               value: "off"
-          image: kongk8s:3.4.0
+          image: kong:3.8
           imagePullPolicy: IfNotPresent
           name: clear-stale-pid
           resources: {}
@@ -1060,7 +1060,7 @@ spec:
               value: 0.0.0.0:8100, [::]:8100
             - name: KONG_STREAM_LISTEN
               value: "off"
-          image: kongk8s:3.4.0
+          image: kong:3.8
           imagePullPolicy: IfNotPresent
           name: wait-for-db
           resources: {}
@@ -1371,7 +1371,7 @@ spec:
               value: "off"
             - name: KONG_NGINX_DAEMON
               value: "off"
-          image: kongk8s:3.4.0
+          image: kong:3.8
           imagePullPolicy: IfNotPresent
           name: kong-migrations
           resources: {}
@@ -1462,7 +1462,7 @@ spec:
               value: "off"
             - name: KONG_NGINX_DAEMON
               value: "off"
-          image: kongk8s:3.4.0
+          image: kong:3.8
           imagePullPolicy: IfNotPresent
           name: wait-for-postgres
           resources: {}
@@ -1765,7 +1765,7 @@ spec:
               value: "off"
             - name: KONG_NGINX_DAEMON
               value: "off"
-          image: kongk8s:3.4.0
+          image: kong:3.8
           imagePullPolicy: IfNotPresent
           name: kong-post-upgrade-migrations
           resources: {}
@@ -1856,7 +1856,7 @@ spec:
               value: "off"
             - name: KONG_NGINX_DAEMON
               value: "off"
-          image: kongk8s:3.4.0
+          image: kong:3.8
           imagePullPolicy: IfNotPresent
           name: wait-for-postgres
           resources: {}
@@ -2005,7 +2005,7 @@ spec:
               value: "off"
             - name: KONG_NGINX_DAEMON
               value: "off"
-          image: kongk8s:3.4.0
+          image: kong:3.8
           imagePullPolicy: IfNotPresent
           name: kong-upgrade-migrations
           resources: {}
@@ -2096,7 +2096,7 @@ spec:
               value: "off"
             - name: KONG_NGINX_DAEMON
               value: "off"
-          image: kongk8s:3.4.0
+          image: kong:3.8
           imagePullPolicy: IfNotPresent
           name: wait-for-postgres
           resources: {}

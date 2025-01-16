@@ -900,7 +900,7 @@ spec:
           envFrom:
             - configMapRef:
                 name: env-config
-          image: kongk8s:3.4.0
+          image: kong:3.8
           imagePullPolicy: IfNotPresent
           lifecycle:
             preStop:
@@ -1034,7 +1034,7 @@ spec:
           envFrom:
             - configMapRef:
                 name: env-config
-          image: kongk8s:3.4.0
+          image: kong:3.8
           imagePullPolicy: IfNotPresent
           name: clear-stale-pid
           resources: {}
@@ -1137,7 +1137,7 @@ spec:
           envFrom:
             - configMapRef:
                 name: env-config
-          image: kongk8s:3.4.0
+          image: kong:3.8
           imagePullPolicy: IfNotPresent
           name: wait-for-db
           resources: {}
@@ -1449,7 +1449,7 @@ spec:
           envFrom:
             - configMapRef:
                 name: env-config
-          image: kongk8s:3.4.0
+          image: kong:3.8
           imagePullPolicy: IfNotPresent
           name: kong-migrations
           resources: {}
@@ -1554,7 +1554,7 @@ spec:
           envFrom:
             - configMapRef:
                 name: env-config
-          image: kongk8s:3.4.0
+          image: kong:3.8
           imagePullPolicy: IfNotPresent
           name: wait-for-postgres
           resources: {}
@@ -1859,7 +1859,7 @@ spec:
           envFrom:
             - configMapRef:
                 name: env-config
-          image: kongk8s:3.4.0
+          image: kong:3.8
           imagePullPolicy: IfNotPresent
           name: kong-post-upgrade-migrations
           resources: {}
@@ -1964,7 +1964,7 @@ spec:
           envFrom:
             - configMapRef:
                 name: env-config
-          image: kongk8s:3.4.0
+          image: kong:3.8
           imagePullPolicy: IfNotPresent
           name: wait-for-postgres
           resources: {}
@@ -2114,7 +2114,7 @@ spec:
           envFrom:
             - configMapRef:
                 name: env-config
-          image: kongk8s:3.4.0
+          image: kong:3.8
           imagePullPolicy: IfNotPresent
           name: kong-upgrade-migrations
           resources: {}
@@ -2219,7 +2219,7 @@ spec:
           envFrom:
             - configMapRef:
                 name: env-config
-          image: kongk8s:3.4.0
+          image: kong:3.8
           imagePullPolicy: IfNotPresent
           name: wait-for-postgres
           resources: {}
