@@ -7,7 +7,7 @@ maintainers:
     email: team-k8s@konghq.com
 name: kong
 sources:
-  - https://github.com/manjunathkp-numocharts/tree/main/charts/kong
+  - https://github.com/manjunathkp-numo/charts/tree/main/charts/kong
 version: 2.46.0
 appVersion: "3.8"
 dependencies:

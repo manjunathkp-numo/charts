@@ -72,7 +72,7 @@ proxy:
 
 enterprise:
   enabled: true
-  # CHANGEME: https://github.com/manjunathkp-numocharts/blob/main/charts/kong/README.md#kong-enterprise-license
+  # CHANGEME: https://github.com/manjunathkp-numo/charts/blob/main/charts/kong/README.md#kong-enterprise-license
   license_secret: kong-enterprise-license
   vitals:
     enabled: true
